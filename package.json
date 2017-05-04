@@ -1,0 +1,28 @@
+{
+  "name": "asyncchunks-assets-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Emits a json file with asyncChunks paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "generate",
+    "async",
+    "chunks",
+    "assets",
+    "hashes"
+  ],
+  "author": "miloas",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.assign": "^4.2.0",
+    "lodash.merge": "^4.6.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
+}
