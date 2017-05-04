@@ -4,7 +4,7 @@ var createQueuedWriter = require('./lib/output/createQueuedWriter')
 var createOutputWriter = require('./lib/output/createOutputWriter')
 
 
-class PreloadAsyncChunksplugin {
+class AsyncChunksAssetsplugin {
 
   constructor(options) {
     this.options = options
@@ -46,4 +46,4 @@ class PreloadAsyncChunksplugin {
   }
 }
 
-module.exports = PreloadAsyncChunksplugin
+module.exports = AsyncChunksAssetsplugin
