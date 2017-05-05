@@ -35,7 +35,7 @@ class AsyncChunksAssetsplugin {
           return publicPath + entry
         })
       self.writer({
-        preloadAsyncChunks: extractedChunks
+        asyncChunks: extractedChunks
       }, function (err) {
         if (err) {
           compilation.errors.push(err)
