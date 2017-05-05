@@ -1,7 +1,7 @@
 'use strict'
 
-var createQueuedWriter = require('./lib/output/createQueuedWriter')
-var createOutputWriter = require('./lib/output/createOutputWriter')
+var createQueuedWriter = require('assets-webpack-plugin/lib/output/createQueuedWriter')
+var createOutputWriter = require('assets-webpack-plugin/lib/output/createOutputWriter')
 
 
 class AsyncChunksAssetsplugin {
